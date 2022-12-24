@@ -14,4 +14,8 @@ public class BaseEnity : ISoftDelete
         DeletedBy = userId;
         DeletedDate = DateTimeOffset.UtcNow;
     }
+    public void MarkAsNotDeleted()
+    {
+        IsDeleted = false;
+    }
 }

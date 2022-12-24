@@ -6,4 +6,5 @@ public interface ISoftDelete
     public Guid? DeletedBy { get; set; }
 
     void MarkAsDeleted(Guid userId);
+    void MarkAsNotDeleted();
 }
