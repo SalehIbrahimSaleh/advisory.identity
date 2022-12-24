@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "advisory.identity.API", "src\advisory.identity.API\advisory.identity.API.csproj", "{6F1DD8D8-6198-4F30-8361-6E437CA767FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "advisory.identity.API", "src\advisory.identity.API\advisory.identity.API.csproj", "{6F1DD8D8-6198-4F30-8361-6E437CA767FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "advisory.identity.Application", "src\advisory.identity.Application\advisory.identity.Application.csproj", "{ACABBC6D-DD53-4EFE-ACAC-7E05DD271C18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "advisory.identity.Application", "src\advisory.identity.Application\advisory.identity.Application.csproj", "{ACABBC6D-DD53-4EFE-ACAC-7E05DD271C18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "advisory.identity.Domain", "src\advisory.identity.Domain\advisory.identity.Domain.csproj", "{A1600882-9B2E-4181-895E-9B7E1E325D21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "advisory.identity.Domain", "src\advisory.identity.Domain\advisory.identity.Domain.csproj", "{A1600882-9B2E-4181-895E-9B7E1E325D21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "advisory.identity.Infrastructure", "src\advisory.identity.Infrastructure\advisory.identity.Infrastructure.csproj", "{8C9C3C7D-D2B0-42FE-956D-2A9A5386C6DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "advisory.identity.Infrastructure", "src\advisory.identity.Infrastructure\advisory.identity.Infrastructure.csproj", "{8C9C3C7D-D2B0-42FE-956D-2A9A5386C6DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "advisory.identity.Gateway", "src\advisory.identity.Gateway\advisory.identity.Gateway.csproj", "{3B2DB0CC-7DC9-447D-9A6D-80B8AC0B2622}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8C9C3C7D-D2B0-42FE-956D-2A9A5386C6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C9C3C7D-D2B0-42FE-956D-2A9A5386C6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C9C3C7D-D2B0-42FE-956D-2A9A5386C6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2DB0CC-7DC9-447D-9A6D-80B8AC0B2622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2DB0CC-7DC9-447D-9A6D-80B8AC0B2622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2DB0CC-7DC9-447D-9A6D-80B8AC0B2622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2DB0CC-7DC9-447D-9A6D-80B8AC0B2622}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
