@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "advisory.identity.Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "advisory.identity.Gateway", "src\advisory.identity.Gateway\advisory.identity.Gateway.csproj", "{3B2DB0CC-7DC9-447D-9A6D-80B8AC0B2622}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "advisory.Base", "advisory.Base", "{40D7BA32-302B-4BFF-A094-821B899837BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "advisory.Base.Domain", "src\advisory.Base.Domain\advisory.Base.Domain.csproj", "{0465C5A6-8A22-466B-95BA-230719139A18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,9 +43,16 @@ Global
 		{3B2DB0CC-7DC9-447D-9A6D-80B8AC0B2622}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B2DB0CC-7DC9-447D-9A6D-80B8AC0B2622}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B2DB0CC-7DC9-447D-9A6D-80B8AC0B2622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0465C5A6-8A22-466B-95BA-230719139A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0465C5A6-8A22-466B-95BA-230719139A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0465C5A6-8A22-466B-95BA-230719139A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0465C5A6-8A22-466B-95BA-230719139A18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0465C5A6-8A22-466B-95BA-230719139A18} = {40D7BA32-302B-4BFF-A094-821B899837BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DBD5C80F-9F0C-4445-9801-09920B674AC3}
